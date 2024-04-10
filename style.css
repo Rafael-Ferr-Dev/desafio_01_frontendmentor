@@ -1,0 +1,286 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'Hanken Grotesk', sans-serif;
+}
+#div_central{
+    display: flex;
+    position: absolute;
+    background-color: white;
+    top: 20vh;
+    left: 30vw;
+    height: 50vh;
+    width: 40vw;
+    border-radius: 17px;
+    box-shadow: 7px 7px 20px rgba(0, 0, 255, 0.11);
+}
+#div_central_lateral_MyRigth{
+    display: flex;
+    position: absolute;
+    background-image: linear-gradient( hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    top: 0vh;
+    left: 0vw;
+    height: 50vh;
+    width: 20vw;
+    border-radius: 17px;
+}
+#div_central_lateral_MyLeft{
+    display: flex;
+    position: absolute;
+    font-size: 2vh;
+    top: 0vh;
+    left: 20vw;
+    height: 50vh;
+    width: 20vw;
+    border-radius: 17px;
+}
+#text_sumary{
+    display: flex;
+    position: absolute;
+    color: hsl(224, 30%, 27%);
+    font-size: medium;
+    top: 4vh;
+    left: 2vw;
+    height: 5vh;
+    width: 5vw;
+}
+#box_reaction{
+    display: flex;
+    position: absolute;
+    background-color: hsla(0, 100%, 67%, 0.075);
+    top: 10vh;
+    left: 2vw;
+    height: 5vh;
+    width: 15vw;
+    border-radius: 2px;
+}
+#box_memory{
+    display: flex;
+    position: absolute;
+    background-color: hsla(39, 100%, 56%, 0.075);
+    top: 17vh;
+    left: 2vw;
+    height: 5vh;
+    width: 15vw;
+    border-radius: 2px;
+}
+#box_verbal{
+    display: flex;
+    position: absolute;
+    background-color: hsla(166, 100%, 37%, 0.075);
+    top: 24vh;
+    left: 2vw;
+    height: 5vh;
+    width: 15vw;
+    border-radius: 2px;
+}
+ #box_visual{
+    display: flex;
+    position: absolute;
+    background-color:  hsla(234, 85%, 45%, 0.075);
+    top: 31vh;
+    left: 2vw;
+    height: 5vh;
+    width: 15vw;
+    border-radius: 2px;
+ }
+ #button{
+    display: flex;
+    position: absolute;
+    top: 42vh;
+    left: 2vw;
+ }
+ button{
+    color: white;
+    background-color: hsl(224, 30%, 27%);
+    width: 15vw;
+    height: 5vh;
+    border: none;
+    border-radius: 20px;
+ }
+#text_result{
+    display: flex;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.664);
+    top: 4vh;
+    left: 6.65vw;
+    height: 5vh;
+    width: 8vw;
+}
+#circle{
+    display: flex;
+    position: absolute;
+    color: white;
+    background-image: linear-gradient( hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    top: 10vh;
+    left: 5.5vw;
+    height: 18vh;
+    width: 9vw;
+    border-radius: 50%;
+}
+#text_76{
+    display: flex;
+    position: absolute;
+    font-size: 3.75vh;
+    top: 3vh;
+    left: 2.5vw;
+}
+#text_of100{
+    display: flex;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.342);
+    font-size: 2vh;
+    top: 11vh;
+    left: 3.1vw;
+}
+#text_great{
+    display: flex;
+    position: absolute;
+    color: white;
+    font-size: 2vh;
+    top: 32vh;
+    left: 8vw;
+    height: 18vh;
+    width: 9vw;
+}
+#text_your_scored{
+    display: flex;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.733);
+    font-size: 1.6vh;
+    text-align: center;
+    font-weight:lighter;
+    top: 38vh;
+    left: 4.5vw;
+    height: 18vh;
+    width: 12vw;
+}
+.class_svgs{
+    display: flex;
+    position: absolute;
+    top: 1.2vh;
+}
+#positionReaction{
+    display: flex;
+    position: absolute;
+    left: 10vw;
+}
+#positionReaction_int1{
+    display: flex;
+    position: absolute;
+    width: 1.7vw;  
+    color: hsl(224, 30%, 27%);
+}
+#positionReaction_int2{
+    display: flex;
+    position: absolute;
+    width: 1.7vw;
+    left: 2vw; 
+    color: hsla(224, 30%, 27%, 0.527);
+}
+@media(max-width:480px){
+    #div_central{
+        top: 0vh;
+        left: 0vw;
+        height: 100%;
+        width: 100%;
+    }
+    #div_central_lateral_MyRigth{
+        top: 0vh;
+        left: 0vw;
+        width: 100%;
+        height: 45vh;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    #div_central_lateral_MyLeft{
+        top: 40vh;
+        left: 0vw;
+        width: 100%;
+        height: 100%;
+    }
+    #text_result{
+        top: 3vh;
+        left: 37.5vw;
+        height: 5vh;
+        width: 40vw;
+    }
+    #circle{
+        top: 8vh;
+        left: 30.5vw;
+        height: 18vh;
+        width: 37.5vw;
+    }
+    #text_76{
+        top: 3.5vh;
+        left: 10vw;
+    }
+    #text_of100{
+        top: 12vh;
+        left: 12vw;
+    }
+    #text_great{
+        top: 28vh;
+        left: 40vw;
+        height: 18vh;
+        width: 9vw;
+    }
+    #text_your_scored{
+        top: 32vh;
+        left: 22vw;
+        height: 18vh;
+        width: 55vw;
+    }
+    #text_sumary{
+        top: 8vh;
+        left: 8vw;
+        height: 5vh;
+        width: 5vw;
+    }
+    #box_reaction{
+        top: 14vh;
+        left: 5vw;
+        height: 5vh;
+        width: 90vw;
+    }
+    #box_memory{
+        top: 21vh;
+        left: 5vw;
+        height: 5vh;
+        width: 90vw;
+    }
+    #box_verbal{
+        top: 28vh;
+        left: 5vw;
+        height: 5vh;
+        width: 90vw;
+    }
+    #box_visual{
+        top: 35vh;
+        left: 5vw;
+        height: 5vh;
+        width: 90vw;
+    }
+    #button{
+        display: flex;
+        position: absolute;
+        top: 48vh;
+        left: 8vw;
+    }
+    button{
+        width: 80vw;
+        height: 8vh;
+        border: none;
+        border-radius: 38px;
+    }
+    #positionReaction_int1{
+        left: 60vw;  
+    }
+    #positionReaction_int2{
+        left: 67.5vw;
+    }
+}
